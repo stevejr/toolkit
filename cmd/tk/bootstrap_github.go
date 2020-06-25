@@ -36,7 +36,7 @@ var bootstrapGitHubCmd = &cobra.Command{
 	Long: `
 The bootstrap command creates the GitHub repository if it doesn't exists and
 commits the toolkit components manifests to the master branch.
-Then it configure the target cluster to synchronize with the repository.
+Then it configures the target cluster to synchronize with the repository.
 If the toolkit components are present on the cluster,
 the bootstrap command will perform an upgrade if needed.`,
 	Example: `  # Create a GitHub personal access token and export it as an env var
