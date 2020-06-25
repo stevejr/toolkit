@@ -65,5 +65,5 @@ tk bootstrap github [flags]
 
 ### SEE ALSO
 
-* [tk bootstrap](tk_bootstrap.md)	 - Bootstrap commands
+* [tk bootstrap](tk_bootstrap.md)	 - Bootstrap the toolkit components
 

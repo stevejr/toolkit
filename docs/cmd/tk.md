@@ -21,13 +21,13 @@ Command line utility for assembling Kubernetes CD pipelines the GitOps way.
     --branch=master \
     --interval=3m
 
-  # List git sources and their status
+  # List GitRepository sources and their status
   tk get sources git
 
   # Trigger a git sync
   tk sync source git webapp-latest
 
-  # Export git sources in YAML format
+  # Export GitRepository sources in YAML format
   tk export source git --all > sources.yaml
 
   # Create a kustomization for deploying a series of microservices
@@ -56,7 +56,7 @@ Command line utility for assembling Kubernetes CD pipelines the GitOps way.
   # Delete a kustomization
   tk delete kustomization webapp-dev
 
-  # Delete a git source
+  # Delete a GitRepository source
   tk delete source git webapp-latest
 
   # Uninstall the toolkit and delete CRDs
@@ -77,12 +77,12 @@ Command line utility for assembling Kubernetes CD pipelines the GitOps way.
 
 ### SEE ALSO
 
-* [tk bootstrap](tk_bootstrap.md)	 - Bootstrap commands
+* [tk bootstrap](tk_bootstrap.md)	 - Bootstrap the toolkit components
 * [tk check](tk_check.md)	 - Check requirements and installation
 * [tk completion](tk_completion.md)	 - Generates bash completion scripts
-* [tk create](tk_create.md)	 - Create commands
-* [tk delete](tk_delete.md)	 - Delete commands
-* [tk export](tk_export.md)	 - Export commands
+* [tk create](tk_create.md)	 - Create resources
+* [tk delete](tk_delete.md)	 - Delete resources
+* [tk export](tk_export.md)	 - Export resources
 * [tk get](tk_get.md)	 - Get commands
 * [tk install](tk_install.md)	 - Install the toolkit components
 * [tk resume](tk_resume.md)	 - Resume commands

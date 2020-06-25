@@ -1,10 +1,10 @@
 ## tk sync source
 
-Synchronize source commands
+Synchronize sources
 
 ### Synopsis
 
-Synchronize source commands
+Synchronize sources
 
 ### Options
 
@@ -25,5 +25,5 @@ Synchronize source commands
 ### SEE ALSO
 
 * [tk sync](tk_sync.md)	 - Synchronize commands
-* [tk sync source git](tk_sync_source_git.md)	 - Synchronize git source
+* [tk sync source git](tk_sync_source_git.md)	 - Synchronize a GitRepository source
 

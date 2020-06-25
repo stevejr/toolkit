@@ -1,10 +1,10 @@
 ## tk export source
 
-Export source commands
+Export sources
 
 ### Synopsis
 
-Export source commands
+Export sources
 
 ### Options
 
@@ -26,6 +26,6 @@ Export source commands
 
 ### SEE ALSO
 
-* [tk export](tk_export.md)	 - Export commands
-* [tk export source git](tk_export_source_git.md)	 - Export git sources in YAML format
+* [tk export](tk_export.md)	 - Export resources
+* [tk export source git](tk_export_source_git.md)	 - Export GitRepository sources in YAML format
 

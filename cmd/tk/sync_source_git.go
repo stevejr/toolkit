@@ -28,7 +28,7 @@ import (
 
 var syncSourceGitCmd = &cobra.Command{
 	Use:   "git [name]",
-	Short: "Synchronize git source",
+	Short: "Synchronize a GitRepository source",
 	Long: `
 The sync source command triggers a reconciliation of a GitRepository resource and waits for it to finish.`,
 	Example: `  # Trigger a git pull for an existing source

@@ -40,7 +40,7 @@ import (
 
 var createSourceGitCmd = &cobra.Command{
 	Use:   "git [name]",
-	Short: "Create or update a git source",
+	Short: "Create or update a GitRepository source",
 	Long: `
 The create source command generates a GitRepository resource and waits for it to sync.
 For Git over SSH, host and SSH keys are automatically generated and stored in a Kubernetes secret.

@@ -22,7 +22,7 @@ import (
 
 var syncSourceCmd = &cobra.Command{
 	Use:   "source",
-	Short: "Synchronize source commands",
+	Short: "Synchronize sources",
 }
 
 func init() {

@@ -1,10 +1,10 @@
 ## tk bootstrap
 
-Bootstrap commands
+Bootstrap the toolkit components
 
 ### Synopsis
 
-Bootstrap commands
+Bootstrap the toolkit components
 
 ### Options
 

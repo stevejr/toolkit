@@ -1,10 +1,10 @@
 ## tk export kustomization
 
-Export kustomization in YAML format
+Export kustomization resources in YAML format
 
 ### Synopsis
 
-Export kustomization in YAML format
+Export kustomization resources in YAML format
 
 ```
 tk export kustomization [name] [flags]
@@ -40,5 +40,5 @@ tk export kustomization [name] [flags]
 
 ### SEE ALSO
 
-* [tk export](tk_export.md)	 - Export commands
+* [tk export](tk_export.md)	 - Export resources
 

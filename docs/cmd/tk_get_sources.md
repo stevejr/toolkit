@@ -1,10 +1,10 @@
 ## tk get sources
 
-Get sources commands
+Get sources
 
 ### Synopsis
 
-Get sources commands
+Get sources
 
 ### Options
 
@@ -25,5 +25,5 @@ Get sources commands
 ### SEE ALSO
 
 * [tk get](tk_get.md)	 - Get commands
-* [tk get sources git](tk_get_sources_git.md)	 - Get git sources status
+* [tk get sources git](tk_get_sources_git.md)	 - Get GitRepository source statuses
 

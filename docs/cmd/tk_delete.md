@@ -1,10 +1,10 @@
 ## tk delete
 
-Delete commands
+Delete resources
 
 ### Synopsis
 
-Delete commands
+Delete resources
 
 ### Options
 
@@ -26,6 +26,6 @@ Delete commands
 ### SEE ALSO
 
 * [tk](tk.md)	 - Command line utility for assembling Kubernetes CD pipelines
-* [tk delete kustomization](tk_delete_kustomization.md)	 - Delete kustomization
-* [tk delete source](tk_delete_source.md)	 - Delete sources commands
+* [tk delete kustomization](tk_delete_kustomization.md)	 - Delete a kustomization
+* [tk delete source](tk_delete_source.md)	 - Delete sources
 

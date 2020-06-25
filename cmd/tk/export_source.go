@@ -22,7 +22,7 @@ import (
 
 var exportSourceCmd = &cobra.Command{
 	Use:   "source",
-	Short: "Export source commands",
+	Short: "Export sources",
 }
 
 var (

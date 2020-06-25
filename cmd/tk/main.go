@@ -48,13 +48,13 @@ var rootCmd = &cobra.Command{
     --branch=master \
     --interval=3m
 
-  # List git sources and their status
+  # List GitRepository sources and their status
   tk get sources git
 
   # Trigger a git sync
   tk sync source git webapp-latest
 
-  # Export git sources in YAML format
+  # Export GitRepository sources in YAML format
   tk export source git --all > sources.yaml
 
   # Create a kustomization for deploying a series of microservices
@@ -83,7 +83,7 @@ var rootCmd = &cobra.Command{
   # Delete a kustomization
   tk delete kustomization webapp-dev
 
-  # Delete a git source
+  # Delete a GitRepository source
   tk delete source git webapp-latest
 
   # Uninstall the toolkit and delete CRDs

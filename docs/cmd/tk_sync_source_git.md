@@ -1,6 +1,6 @@
 ## tk sync source git
 
-Synchronize git source
+Synchronize a GitRepository source
 
 ### Synopsis
 
@@ -37,5 +37,5 @@ tk sync source git [name] [flags]
 
 ### SEE ALSO
 
-* [tk sync source](tk_sync_source.md)	 - Synchronize source commands
+* [tk sync source](tk_sync_source.md)	 - Synchronize sources
 

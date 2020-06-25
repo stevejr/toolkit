@@ -22,7 +22,7 @@ import (
 
 var createSourceCmd = &cobra.Command{
 	Use:   "source",
-	Short: "Create source commands",
+	Short: "Create sources",
 }
 
 func init() {

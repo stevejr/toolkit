@@ -29,7 +29,7 @@ import (
 var deleteKsCmd = &cobra.Command{
 	Use:     "kustomization [name]",
 	Aliases: []string{"ks"},
-	Short:   "Delete kustomization",
+	Short:   "Delete a kustomization",
 	RunE:    deleteKsCmdRun,
 }
 

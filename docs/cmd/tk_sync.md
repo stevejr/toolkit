@@ -26,5 +26,5 @@ Synchronize commands
 
 * [tk](tk.md)	 - Command line utility for assembling Kubernetes CD pipelines
 * [tk sync kustomization](tk_sync_kustomization.md)	 - Synchronize kustomization
-* [tk sync source](tk_sync_source.md)	 - Synchronize source commands
+* [tk sync source](tk_sync_source.md)	 - Synchronize sources
 

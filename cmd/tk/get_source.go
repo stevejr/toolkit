@@ -22,7 +22,7 @@ import (
 
 var getSourceCmd = &cobra.Command{
 	Use:   "sources",
-	Short: "Get sources commands",
+	Short: "Get sources",
 }
 
 func init() {

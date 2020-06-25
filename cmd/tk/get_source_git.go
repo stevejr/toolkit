@@ -27,9 +27,9 @@ import (
 
 var getSourceGitCmd = &cobra.Command{
 	Use:   "git",
-	Short: "Get git sources status",
+	Short: "Get GitRepository source statuses",
 	Long: `
-The get sources command prints the status of the git resources.`,
+The get sources command prints the status of the GitRepository resources.`,
 	RunE: getSourceGitCmdRun,
 }
 

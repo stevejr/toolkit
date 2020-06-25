@@ -37,7 +37,7 @@ import (
 var createKsCmd = &cobra.Command{
 	Use:     "kustomization [name]",
 	Aliases: []string{"ks"},
-	Short:   "Create or update a kustomization resource",
+	Short:   "Create or update a Kustomization resource",
 	Long: `
 The kustomization source command generates a kustomization.kustomize.fluxcd.io resource for a given GitRepository source.
 API spec: https://github.com/fluxcd/kustomize-controller/tree/master/docs/spec/v1alpha1`,

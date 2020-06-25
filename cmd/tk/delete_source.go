@@ -22,7 +22,7 @@ import (
 
 var deleteSourceCmd = &cobra.Command{
 	Use:   "source",
-	Short: "Delete sources commands",
+	Short: "Delete sources",
 }
 
 func init() {
