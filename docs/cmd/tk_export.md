@@ -26,6 +26,6 @@ Export resources
 ### SEE ALSO
 
 * [tk](tk.md)	 - Command line utility for assembling Kubernetes CD pipelines
-* [tk export kustomization](tk_export_kustomization.md)	 - Export kustomization resources in YAML format
+* [tk export kustomization](tk_export_kustomization.md)	 - Export Kustomization resources in YAML format
 * [tk export source](tk_export_source.md)	 - Export sources
 

@@ -1,10 +1,10 @@
 ## tk export kustomization
 
-Export kustomization resources in YAML format
+Export Kustomization resources in YAML format
 
 ### Synopsis
 
-Export kustomization resources in YAML format
+Export Kustomization resources in YAML format
 
 ```
 tk export kustomization [name] [flags]
@@ -13,10 +13,10 @@ tk export kustomization [name] [flags]
 ### Examples
 
 ```
-  # Export all kustomizations
+  # Export all Kustomization resources
   export kustomization --all > kustomizations.yaml
 
-  # Export a kustomization
+  # Export a Kustomization
   export kustomization my-app > kustomization.yaml
 
 ```

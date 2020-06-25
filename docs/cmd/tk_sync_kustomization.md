@@ -14,10 +14,10 @@ tk sync kustomization [name] [flags]
 ### Examples
 
 ```
-  # Trigger a kustomization apply outside of the reconciliation interval
+  # Trigger a Kustomization apply outside of the reconciliation interval
   sync kustomization podinfo
 
-  # Trigger a git sync of the kustomization source and apply changes
+  # Trigger a git sync of the Kustomization's source and apply changes
   sync kustomization podinfo --with-source
 
 ```

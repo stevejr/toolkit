@@ -1,6 +1,6 @@
 ## tk get kustomizations
 
-Get kustomization statuses
+Get Kustomization source statuses
 
 ### Synopsis
 

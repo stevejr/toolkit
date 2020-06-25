@@ -1,10 +1,10 @@
 ## tk delete kustomization
 
-Delete a kustomization
+Delete a Kustomization source
 
 ### Synopsis
 
-Delete a kustomization
+Delete a Kustomization source
 
 ```
 tk delete kustomization [name] [flags]

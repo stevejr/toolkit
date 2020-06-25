@@ -31,11 +31,11 @@ import (
 var exportKsCmd = &cobra.Command{
 	Use:     "kustomization [name]",
 	Aliases: []string{"ks"},
-	Short:   "Export kustomization resources in YAML format",
-	Example: `  # Export all kustomizations
+	Short:   "Export Kustomization resources in YAML format",
+	Example: `  # Export all Kustomization resources
   export kustomization --all > kustomizations.yaml
 
-  # Export a kustomization
+  # Export a Kustomization
   export kustomization my-app > kustomization.yaml
 `,
 	RunE: exportKsCmdRun,

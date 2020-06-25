@@ -33,10 +33,10 @@ var syncKsCmd = &cobra.Command{
 	Short:   "Synchronize kustomization",
 	Long: `
 The sync kustomization command triggers a reconciliation of a Kustomization resource and waits for it to finish.`,
-	Example: `  # Trigger a kustomization apply outside of the reconciliation interval
+	Example: `  # Trigger a Kustomization apply outside of the reconciliation interval
   sync kustomization podinfo
 
-  # Trigger a git sync of the kustomization source and apply changes
+  # Trigger a git sync of the Kustomization's source and apply changes
   sync kustomization podinfo --with-source
 `,
 	RunE: syncKsCmdRun,

@@ -25,6 +25,6 @@ Get commands
 ### SEE ALSO
 
 * [tk](tk.md)	 - Command line utility for assembling Kubernetes CD pipelines
-* [tk get kustomizations](tk_get_kustomizations.md)	 - Get kustomization statuses
+* [tk get kustomizations](tk_get_kustomizations.md)	 - Get Kustomization source statuses
 * [tk get sources](tk_get_sources.md)	 - Get sources
 

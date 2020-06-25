@@ -6,6 +6,7 @@ Create or update a Kustomization resource
 
 
 The kustomization source command generates a kustomization.kustomize.fluxcd.io resource for a given GitRepository source.
+
 API spec: https://github.com/fluxcd/kustomize-controller/tree/master/docs/spec/v1alpha1
 
 ```
@@ -15,7 +16,7 @@ tk create kustomization [name] [flags]
 ### Examples
 
 ```
-  # Create a kustomization from a source at a given path
+  # Create a Kustomization resource from a source at a given path
   create kustomization contour \
     --source=contour \
     --path="./examples/contour/" \
@@ -26,7 +27,7 @@ tk create kustomization [name] [flags]
     --health-check="DaemonSet/envoy.projectcontour" \
     --health-check-timeout=3m
 
-  # Create a kustomization that depends on the previous one
+  # Create a Kustomization resource that depends on the previous one
   create kustomization webapp \
     --depends-on=contour \
     --source=webapp \
@@ -35,7 +36,7 @@ tk create kustomization [name] [flags]
     --interval=5m \
     --validate=client
 
-  # Create a kustomization that runs under a service account
+  # Create a Kustomization resource that runs under a service account
   create kustomization webapp \
     --source=webapp \
     --path="./deploy/overlays/staging" \
@@ -50,11 +51,11 @@ tk create kustomization [name] [flags]
 ### Options
 
 ```
-      --depends-on stringArray          kustomization that must be ready before this kustomization can be applied
+      --depends-on stringArray          Kustomization that must be ready before this Kustomization can be applied
       --health-check stringArray        workload to be included in the health assessment, in the format '<kind>/<name>.<namespace>'
       --health-check-timeout duration   timeout of health checking operations (default 2m0s)
   -h, --help                            help for kustomization
-      --path string                     path to the directory containing the kustomization file (default "./")
+      --path string                     path to the directory containing the Kustomization file (default "./")
       --prune                           enable garbage collection
       --sa-name string                  service account name
       --sa-namespace string             service account namespace

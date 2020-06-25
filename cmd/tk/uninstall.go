@@ -49,7 +49,7 @@ var (
 
 func init() {
 	uninstallCmd.Flags().BoolVarP(&uninstallKustomizations, "kustomizations", "", false,
-		"removes all kustomizations previously installed")
+		"removes all Kustomizations previously installed")
 	uninstallCmd.Flags().BoolVarP(&uninstallCRDs, "crds", "", false,
 		"removes all CRDs previously installed")
 	uninstallCmd.Flags().BoolVarP(&uninstallDryRun, "dry-run", "", false,
